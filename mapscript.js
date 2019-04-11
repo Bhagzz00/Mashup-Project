@@ -1,4 +1,4 @@
-var map1, map2, map3;
+var map, map1, map2, map3;
 function initialize(){
     var mapOptions1 = {
         zoom:2,
@@ -12,6 +12,13 @@ function initialize(){
         zoom:18,
         center: { lat: 40.758904, lng:-73.985128}
     };
+
+    var mapOpyions= {
+        zoom:12,
+        center: new google.maps.LatLng (40.758904, -73.985128)
+    };
+
+    map =new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
     map1 = new google.maps.Map(document.getElementById('map_canvas1'), mapOptions1);
     map1 = new google.maps.Map(document.getElementById('map_canvas2'), mapOptions2);
     map1 = new google.maps.Map(document.getElementById('map_canvas3'), mapOptions3);
