@@ -17,8 +17,8 @@ html, body{
 
 }
 #page1{background-color: #4486F4}
-#page1{background-color: #FFDD43}
-#page1{background-color: #DB4539}
+#page2{background-color: #FFDD43}
+#page3{background-color: #DB4539}
 #map-container{ background-color: #ABB7B7}
 #map_canvas{
     width: 90%;
